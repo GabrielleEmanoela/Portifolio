@@ -11,14 +11,13 @@ function Feed() {
   );
 }
 
-
 const Drawer = createDrawerNavigator();
 
 function MyDrawer() {
   return (
-    <Drawer.Navigator>
+    <Drawer.Navigator initialRouteName='Home'>
+      <Drawer.Screen name="Home" component={HomeScreen} color='#000' />
       <Drawer.Screen name="Feed" component={Feed} />
-      <Drawer.Screen name="Home" component={HomeScreen} />
     </Drawer.Navigator>
   );
 }

@@ -3,18 +3,17 @@ import styled from "styled-components";
 
 export const Container = styled.View`
   flex: 1;
-  // azul 
-  background-color: #1E90FF;
+  justify-content: center;
 `;
 
 export const ContainerImg = styled.View`
 position: absolute;
-top:83px;
-left:97px;
-width: 100px;
-height: 100px;
-border-radius: 50px;
+width: 174.38px;
+height: 180px;
+left: 97px;
+top: 50px;
 background-color: #fff;
+border-radius: 100px;
 `;
 
 export const Img = styled.Image`
@@ -24,10 +23,18 @@ export const Img = styled.Image`
 `;
 
 export const Title = styled.Text`
-  font-size: 30px;
-  font-weight: bold;
-  color: #000;
-  margin-top: 20px;
-  margin-left: 20px;
+position: absolute;
+width: 312px;
+height: 120px;
+left: 32px;
+top: 250px;
+font-family: Heebo;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 40px;
+text-align: center;
+color: #21243D;
+
 `;
 
