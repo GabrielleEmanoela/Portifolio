@@ -1,13 +1,15 @@
 import React from "react";
 import * as Styled from "./styles";
-import { Image, Text } from "react-native";
-import Background from "../../components/Background";
+import Background from "~/components/Background";
+import Logo from "~/assests/img/logo.png";
+
+
 function Index() {
   return (
     <Background>
       <Styled.Container>
         <Styled.ContainerImg>
-          <Image src="https://i.imgur.com/9cuVRy7.jpeg" />
+          <Styled.Imgc source={Logo} />
         </Styled.ContainerImg>
         <Styled.Title>
           Hi I'm Gabrielle, Curious Developer 💻 👩‍🦰  </Styled.Title>

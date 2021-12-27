@@ -16,10 +16,10 @@ background-color: #fff;
 border-radius: 100px;
 `;
 
-export const Img = styled.Image`
+export const Imgc = styled.Image`
   width: 100%;
   height: 100%;
-  border-radius: 50px;
+  border-radius: 100px;
 `;
 
 export const Title = styled.Text`
@@ -31,10 +31,9 @@ top: 250px;
 font-family: Heebo;
 font-style: normal;
 font-weight: bold;
-font-size: 32px;
+font-size: 30px;
 line-height: 40px;
 text-align: center;
 color: #21243D;
-
 `;
 
